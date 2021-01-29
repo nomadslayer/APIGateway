@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "pass": [
+      "/auth/",
+      "/product/",
+      "/session/",
+      "/subscription/",
+      "/return/webhook",
+      "/return/pingwebhook"
+    ],
+    "block": [
+    ]
+  }
+}

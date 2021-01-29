@@ -1,0 +1,74 @@
+{
+  "routes": [
+    {
+      "endpoint": "/account",
+      "destination": {
+        "path": "http://localhost:44366/api/v1/Account/"
+      }
+    },
+    {
+      "endpoint": "/product",
+      "destination": {
+        "path": "http://localhost:44310/api/v1/"
+      }
+    },
+    {
+      "endpoint": "/subscription",
+      "destination": {
+        "path": "http://localhost:44370/api/v1/Subscription/"
+      }
+    },
+    {
+      "endpoint": "/return",
+      "destination": {
+        "path": "http://localhost:44370/api/v1/Payment/"
+      }
+    },
+    {
+      "endpoint": "/serialnumber",
+      "destination": {
+        "path": "http://localhost:44366/api/v1/SerialNumber/"
+      }
+    },
+    {
+      "endpoint": "/stock",
+      "destination": {
+        "path": "http://localhost:44366/api/v1/Stock/"
+      }
+    },
+    {
+      "endpoint": "/notification",
+      "destination": {
+        "path": "http://localhost:44366/api/v1/Notification/"
+      }
+    },
+    {
+      "endpoint": "/payment",
+      "destination": {
+        "path": "http://localhost:44366/api/v1/Payment/"
+      }
+    },
+    {
+      "endpoint": "/consumer",
+      "destination": {
+        "path": "http://localhost:44366/api/v1/Consumer/"
+      }
+    },
+    {
+      "endpoint": "/auth",
+      "destination": {
+        "path": "http://localhost:44328/api/v1/"
+      }
+    },
+    {
+      "endpoint": "/session",
+      "destination": {
+        "path": "http://localhost:44360/api/v1/session/"
+      }
+    }
+  ],
+  "authenticationService": {
+    "path": "http://localhost:44360/api/v1/Session/IsSessionValid",
+    "isauth": "true"
+  }
+}
